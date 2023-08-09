@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Number of directories in PATH: $DIR_COUNT"
+echo "$PATH" | tr ':' '\n' | wc -l
